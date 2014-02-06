@@ -1,0 +1,44 @@
+{
+    "versionLabel": "1.0.2",
+    "uuid": "02858130-d4e5-461b-8eca-3d7a1634b4f8",
+    "appKeys": {
+        "stopName": 3,
+        "agency": 0,
+        "index": 1,
+        "getEta": 9,
+        "getRoutes": 5,
+        "refresh": 4,
+        "routeId": 6,
+        "cleanStops": 11,
+        "stopId": 2,
+        "routeName": 7,
+        "error": 10,
+        "eta": 8
+    },
+    "longName": "BusETA for DoubleMap",
+    "versionCode": 1,
+    "capabilities": [
+        "location",
+        "configurable"
+    ],
+    "shortName": "BusETA",
+    "companyName": "Logical Pixels",
+    "watchapp": {
+        "watchface": false
+    },
+    "resources": {
+        "media": [
+            {
+                "menuIcon": true,
+                "type": "png",
+                "name": "IMAGE_DOUBLEMAP_MENU_ICON",
+                "file": "images/doublemap_menu_icon.png"
+            },
+            {
+                "type": "png",
+                "name": "IMAGE_APP_LOGO_LONG",
+                "file": "images/spoon_long_med-2.png"
+            }
+        ]
+    }
+}
